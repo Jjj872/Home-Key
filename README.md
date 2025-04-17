@@ -12,10 +12,10 @@ Ensuite, choisir quels fichiers ajouter sur votre dépot. Pour cela, vous pouvez
 Une fois les fichiers ajoutés, vous devez indiquer un message qui expliquera ce que vous avez fait. Pour cela, vous pouvez utiliser la command "git commit -m "MESSAGE""
 
 Vous devez ensuite choisir sur quel branche vous allez travailler. Par défaut, vous devez traviller sur la branche 'main'. Pour choisir la branche main vous devez utiliser la commande:
-  * "git branch -m main" <-- cette commande est a exécuter une seule fois, comme git init.
+ * "git branch -m main" <-- cette commande est a exécuter une seule fois, comme git init.
 
 Vous devez églament indiquer à Git sur quel dépot distant vous souhaitez travailler avec la commande :
-  * "git remote add origin URL_DU_DEPOT. <-- Cette commande est a exécuter une seule fois, comme git init et git branch -m main.
+ * "git remote add origin URL_DU_DEPOT. <-- Cette commande est a exécuter une seule fois, comme git init et git branch -m main.
 
 Pour finir, pour envoyer les modifications sur le dépot distant, vous devez utiliser les commandes suivantes en boucles :
  * "git add *
