@@ -26,7 +26,7 @@ INFO: Aprés le premier "git push -u origin main", vous pouvez utiliser seulemen
 
 ## En résumé
 ### A la création d'un nouveau projet :
-
+* selectionner le fichier avec cd <C:\Users\jolan\Desktop\Nouveau dossier github ou autre>
 * git init 
 * git add * 
 * git commit -m "MESSAGE"

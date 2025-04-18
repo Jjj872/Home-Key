@@ -427,4 +427,33 @@ footer > p{
     #accommodations{
         flex-direction: column;
     }
+
+    .activities-list{
+        display: center;
+        justify-content: center;
+    }
+
+    .activities-list a{
+        flex: 0 1 45%;
+    }
+}
+
+
+
+ /* format tel */ 
+
+@media screen and (max-width:767px){
+    .activities-list {
+        display: grid;
+    }
+
+    footer > div{
+        gap: 45px;
+        display: grid;
+        align-content: center;
+    }
+    #accommodations{
+        flex-direction: column-reverse;
+    }
+
 }
