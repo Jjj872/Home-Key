@@ -456,4 +456,10 @@ footer > p{
         flex-direction: column-reverse;
     }
 
+    header {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
